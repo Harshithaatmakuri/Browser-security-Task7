@@ -63,4 +63,3 @@ The flagged extension was successfully removed:
 ---
 
 ## 🗂️ Repository Structure
-
