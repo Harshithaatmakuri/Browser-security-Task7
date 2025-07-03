@@ -43,11 +43,11 @@ This task, completed during a cybersecurity internship, focused on auditing brow
 ## 📸 Screenshots
 
 ### 🔴 Before Removal  
-> Chrome flagged **MX Player Ad Blocker** as containing malware:  
+Chrome flagged **MX Player Ad Blocker** as containing malware:  
 ![Before Removal](suspicious-extension-before-removal.png)
 
 ### ✅ After Removal  
-> The flagged extension was successfully removed:  
+The flagged extension was successfully removed:  
 ![After Removal](suspicious-extension-after-removal.png)
 
 ---
@@ -55,7 +55,7 @@ This task, completed during a cybersecurity internship, focused on auditing brow
 ## 🔐 Key Learnings
 
 - Extensions should be regularly reviewed for suspicious behavior
-- Permissions like "read and change all your data on all websites" are red flags
+- Permissions like “read and change all your data on all websites” are red flags
 - Chrome’s built-in malware detection is a helpful security layer
 - Removing unused or unknown extensions improves browser security
 - Awareness of privacy risks associated with third-party add-ons is critical
