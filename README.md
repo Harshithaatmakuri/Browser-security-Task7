@@ -1,63 +1,66 @@
 # 🛡️ Task 7 – Browser Security: Identifying & Removing Suspicious Extensions
 
-> Identified and removed a malware-flagged Chrome extension as part of a cybersecurity internship task, demonstrating browser extension auditing and security best practices.
+> Identified and removed a malware-flagged Chrome extension as part of a cybersecurity internship task, demonstrating secure extension management and browser auditing practices.
 
 ---
 
 ## 📌 Overview
-As part of a cybersecurity internship, this task focused on manually reviewing installed browser extensions to identify and eliminate potentially harmful or unnecessary ones. The goal was to improve browser hygiene, understand permission risks, and practice real-world cleanup procedures.
+
+This task, completed during a cybersecurity internship, focused on auditing browser extensions to detect and remove potentially risky or unnecessary ones. It reinforced secure browsing habits and awareness of how malicious extensions can impact user privacy and system integrity.
 
 ---
 
 ## 🎯 Objective
-- Audit installed browser extensions
-- Identify flagged, unused, or suspicious extensions
-- Remove unsafe add-ons
-- Document findings and actions with evidence
+
+- Review all installed browser extensions
+- Identify extensions flagged by Chrome or with suspicious permissions
+- Remove unsafe or unnecessary extensions
+- Document the findings with before-and-after screenshots
 
 ---
 
 ## 🔍 Extension Review Summary
 
-| Extension Name            | Status     | Action Taken        | Notes                                                 |
-|---------------------------|------------|----------------------|--------------------------------------------------------|
-| Google Docs Offline       | ✅ Safe    | Retained             | Official extension by Google                           |
-| McAfee WebAdvisor         | ✅ Safe    | Disabled (optional)  | Safe, but not essential for daily use                 |
-| MX Player Ad Blocker      | ❌ Unsafe  | Removed              | Flagged by Chrome as containing malware               |
+| Extension Name            | Status     | Action Taken        | Notes                                                  |
+|---------------------------|------------|----------------------|---------------------------------------------------------|
+| Google Docs Offline       | ✅ Safe    | Retained             | Trusted extension by Google                            |
+| McAfee WebAdvisor         | ✅ Safe    | Disabled (optional)  | Safe but not essential for daily use                   |
+| MX Player Ad Blocker      | ❌ Malware | Removed              | Flagged by Chrome as containing malware                |
 
 ---
 
-## 🧭 Steps Taken
+## 🧭 Steps Performed
 
-1. Opened Chrome’s extension manager (`chrome://extensions/`)
-2. Reviewed extension names, developers, and permissions
-3. Detected Chrome warning on **MX Player Ad Blocker**
-4. Removed the flagged extension
-5. Restarted browser to finalize changes
-6. Captured before and after screenshots
+1. Accessed the Chrome extension manager via [chrome://extensions/](chrome://extensions/)
+2. Reviewed installed extensions, their sources, and permissions
+3. Chrome displayed a malware warning on **MX Player Ad Blocker**
+4. Immediately removed the flagged extension
+5. Restarted the browser to ensure cleanup
+6. Took screenshots before and after the removal for documentation
 
 ---
 
 ## 📸 Screenshots
 
 ### 🔴 Before Removal  
-Extension flagged as containing malware:
+> Chrome flagged **MX Player Ad Blocker** as containing malware:  
 ![Before Removal](suspicious-extension-before-removal.png)
 
 ### ✅ After Removal  
-Extension successfully removed:
+> The flagged extension was successfully removed:  
 ![After Removal](suspicious-extension-after-removal.png)
 
 ---
 
 ## 🔐 Key Learnings
 
-- How to audit browser extensions manually
-- Risks posed by excessive or unnecessary permissions
-- The importance of removing unknown or flagged extensions
-- Recognizing Chrome’s built-in security alerts
+- Extensions should be regularly reviewed for suspicious behavior
+- Permissions like "read and change all your data on all websites" are red flags
+- Chrome’s built-in malware detection is a helpful security layer
+- Removing unused or unknown extensions improves browser security
+- Awareness of privacy risks associated with third-party add-ons is critical
 
 ---
 
-## 🗂️ Repository Contents
+## 🗂️ Repository Structure
 
